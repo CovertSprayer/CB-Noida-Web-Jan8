@@ -137,14 +137,18 @@ function uploadFile(compressedPath){
 
 // })
 
-downloadFile("tpc://facebook.com/profile.jpg")
-.then(compressFile)
-.then(uploadFile)
-.then((uploadPath)=>{
-    console.log(`file successfully uploaded at ${uploadPath}`)
-})
-.catch((err)=>{
-    console.log("something went wrong!");
-    console.log(err);
-})
+// downloadFile("tpc://facebook.com/profile.jpg")
+// .then(compressFile)
+// .then(uploadFile)
+// .then((uploadPath)=>{
+//     console.log(`file successfully uploaded at ${uploadPath}`)
+// })
+// .catch((err)=>{
+//     console.log("something went wrong!");
+//     console.log(err);
+// })
+
+const interval = setInterval(() => {
+    console.log("inside interval");
+}, 2000);
 
