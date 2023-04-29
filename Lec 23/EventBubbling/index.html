@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            text-align: center;
+        }
+
+        .grand-parent{
+            background-color: aqua;
+            width: 80vw;
+            padding: 60px;
+            border: 2px solid black;
+        }
+
+        .parent{
+            background-color: beige;
+            padding: 60px;
+            border: 2px solid black;
+            
+        }
+
+        .mother{
+            background-color: chocolate;
+            border: 2px solid black;
+            padding: 60px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="grand-parent">
+        This is Grand-Parent
+        <div class="parent">
+            This is Parent
+            <div class="mother">
+                This is Mother
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

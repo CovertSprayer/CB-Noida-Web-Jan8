@@ -1,0 +1,9 @@
+.one{
+    border: 2px solid black;
+    background-color: aqua;
+    text-decoration: line-through;
+}
+
+.two{
+    padding: 120px;
+}
