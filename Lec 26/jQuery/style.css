@@ -1,0 +1,10 @@
+.heading{
+    color: orange;
+    background-color: teal;
+    border: 2px solid black;
+}
+
+.paragraph{
+    text-decoration: line-through;
+    color: teal;
+}

@@ -1,0 +1,48 @@
+
+.container{
+    border: 2px solid black;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.inp{
+    padding: 5px;
+    width: 78%;
+}
+
+.btn{
+    padding: 5px;
+    width: 15%;
+}
+
+.text{
+    display: inline;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+span{
+    cursor: pointer;
+}
+
+/* li:first-child span.up-arrow{
+    display: none;
+}
+li:last-child span.down-arrow{
+    display: none;
+} */
+
+.check{
+    text-decoration: line-through;
+}
+
+
